@@ -66,6 +66,7 @@ public class PlayerController : MonoBehaviour {
 			//death.Play ();
 			GameObject.Destroy (gameObject);
 			SceneManager.LoadScene ("Lose");
+            PlayerController.health = 100;
 		}
 	}
 		

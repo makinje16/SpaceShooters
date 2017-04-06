@@ -17,6 +17,10 @@ public class LevelManager : MonoBehaviour {
 		SceneManager.LoadScene ("Start");
 	}
 
+    public void DestroyBG()
+    {
+        Destroy(GameObject.Find("Background Music"));
+    }
 	// Update is called once per frame
 	void Update () {
 	

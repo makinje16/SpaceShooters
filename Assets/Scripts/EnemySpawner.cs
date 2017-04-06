@@ -61,6 +61,7 @@ public class EnemySpawner : MonoBehaviour {
 	void Update () {
 		move ();
 		if (AllMembersDead ()) {
+            PlayerController.health = 100;
 			SceneManager.LoadScene ("Win");
 		}
 	}
