@@ -5,7 +5,6 @@ public class AudioManager : MonoBehaviour {
 
 	public AudioSource audio;
 	bool change = false;
-	// Use this for initialization
 	void Start () {
 
 	}
