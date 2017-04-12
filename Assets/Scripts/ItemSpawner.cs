@@ -7,29 +7,30 @@ public class ItemSpawner : MonoBehaviour {
 	public GameObject health;
 	public GameObject player;
 	bool spawnHealth;
-	int count;
+	public static int count;
 	void Start () {
 		count = 0;
+		spawnHealth = false;
 	}
 
 	void checkSpawn(){
 		if (gameObject.transform.childCount == 0) {
 			spawnHealth = false;
-			count = 0;
 		}
 	}
 	// Update is called once per frame
 	void Update () {
-		checkSpawn ();
-		if (count == 3600 && spawnHealth == false) {
+		
+		if (count == 1800 && spawnHealth == false) {
 			System.Random rand = new System.Random ();
 			float x = rand.Next (-11, 12);
 			Vector3 spawn = new Vector3 (x, player.transform.position.y, 0);
 			GameObject healthObject = Instantiate (health, spawn, Quaternion.identity) as GameObject;
 			healthObject.transform.parent = transform;
-			spawnHealth = true;
-			count = 0;
+			spawnHealth = true;;
 		}
+		checkSpawn ();
 		count++;
+		Debug.Log (count);
 	}
 }

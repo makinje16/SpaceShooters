@@ -58,6 +58,7 @@ public class PlayerController : MonoBehaviour {
 		if (coll.tag == "HealthPickup") {
 			health = 100;
 			GameObject.Destroy (coll.gameObject);
+			ItemSpawner.count = 0;
 		}
 	}
 
