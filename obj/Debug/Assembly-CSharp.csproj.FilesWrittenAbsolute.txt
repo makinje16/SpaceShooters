@@ -6,7 +6,10 @@
 /home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/UnityEditor.dll
 /home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/UnityEngine.UI.dll
 /home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/UnityEngine.Networking.dll
+/home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/UnityEngine.PlaymodeTestsRunner.dll
 /home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/UnityEngine.Analytics.dll
+/home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/UnityEngine.VR.dll
 /home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/Unity.DataContract.dll
 /home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/Mono.Cecil.dll
 /home/makinje/UnityProjects/Space Shooter/Temp/bin/Debug/Unity.SerializationLogic.dll
